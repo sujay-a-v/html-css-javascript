@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+		
+		
+		
+	</head>
+	
+	
+	<body>
+		
+		<h2><b>My Reservation form </b></h2>
+		
+		<table style="50%" align="center" cellpadding="5">
+			
+			<tr>
+				<td align="center">Accomondation</td>
+				<td ><select name="Prefix" class="select1">
+						<option value="RR">Rv</option>
+						<option value="RR">Rv1</option>
+						<option value="PP">Rv2</option>
+				  	</select>    </td>
+				
+			</tr>
+			<tr>
+				<td align="right"> Name</td>
+				<td ><select name="Prefix"  class="select1">
+						<option value="Mr">Mr</option>
+						<option value="Ms">Ms</option>
+						<option value="fiat">Mrs</option>
+				  	</select>    </td>
+				
+				<td> <input type="text" placeholder="First Name" class="input1"></td>
+				<td> <input type="text" placeholder="last Name" class="input1"></td>
+			</tr>
+			
+			
+			<tr>
+				<td align="right">Guests </td>
+				<td> <input type="text" placeholder="18+ years" required></td>
+				<td> <input type="text" placeholder="2-17 years" required></td>
+				<td> <input type="text" placeholder="<2 years" required></td>
+			</tr>
+			
+			<tr>
+				<td align="right">Contact </td>
+				<th  ><input align="left" type="email" name="email" placeholder="E-mail"  class="input2" /></th>
+			</tr>
+			<tr>
+				<td align="right"></td>
+				<td > <input type="text" placeholder="Phone:(xxx) xxxxxxx"  class="input2"  ></td>
+			</tr>
+			
+			<tr>
+				<td align="right">Check in </td>
+				<td> <input id="datepicker" type="date" name="checkin"> </td>
+				<td align="right">Check out </td>
+				<td><input id="datepicker" type="date" name="checkOut"><br> </td>
+			</tr>
+			
+			<tr>
+				<td align="right">Enquipment type </td>
+				<td ><select name="Trailer"  class="select1">
+						<option value="TT">Travel Trailer</option>
+						<option value="TT">Trailer1</option>
+						<option value="TT">Trailer2</option>
+				  	</select>    </td>
+				<td align="right">slide-outs</td>
+				<td><label class="switch">
+					<input type="checkbox">
+					<span class="slider"> YES .. NO</span>
+					</label> </td>
+			</tr>
+			
+			<tr>
+				<td align="right">Required service </td>
+				<td>  
+					<select id="s2" multiple class="form-control" id="sel2">
+					<option value="hydra">hydra</option>
+					<option value="water">water</option>
+					<option value="sewer">sewer</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="right">Pets </td>
+				<td> 
+					<label class="switch">
+					<input type="checkbox">
+					<span class="slider"> YES .. NO</span>
+					</label>  </td>
+			</tr>
+			
+			<tr>
+				<td align="right">Comments </td>
+				<td ><textarea rows="3" placeholder="Additional comments"  class="input2"></textarea></td> 
+			</tr>
+			
+			<tr>
+				<td colspan="2" >  <button type="button"  class="cancelbtn1"  class="button1" > Request Reservation </button> </td>
+				<td >  <button type="button"  class="cancelbtn"  class="button1">Cancel</button> </td> 
+			</tr>
+			
+			
+		</table>
+		
+	</body>
+</html>
